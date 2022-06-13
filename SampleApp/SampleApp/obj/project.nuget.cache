@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "3HiK43cM6GebpCoq8kDPSpklmMt5i3Qduyyc7doUDkGJVWM7byTvxJO39AdblleYq3hU8j9LMBbUwAYgnFJ32w==",
+  "success": true,
+  "projectFilePath": "/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/SampleApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/waitechnologies/.nuget/packages/epoch.unix.timestamp/2.0.0/epoch.unix.timestamp.2.0.0.nupkg.sha512",
+    "/Users/waitechnologies/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/waitechnologies/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/waitechnologies/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/waitechnologies/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/waitechnologies/.nuget/packages/xamarin.essentials/1.7.3/xamarin.essentials.1.7.3.nupkg.sha512",
+    "/Users/waitechnologies/.nuget/packages/xamarin.forms/5.0.0.2401/xamarin.forms.5.0.0.2401.nupkg.sha512"
+  ],
+  "logs": []
+}

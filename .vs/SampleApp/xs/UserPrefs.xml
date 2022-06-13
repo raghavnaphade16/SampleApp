@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{F0E1F218-4CF8-4774-B0DA-826103AAB261}|Default">
+  <MonoDevelop.Ide.ItemProperties.SampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DC978A94-55D6-4BD4-8C5C-A3FBB30183C9" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="12.3.0.3.3" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleApp/SampleApp/Views/MainView/Surgeries.xaml">
+    <Files>
+      <File FileName="SampleApp/SampleApp/Views/MainView/Surgeries.xaml" Line="95" Column="48" />
+      <File FileName="SampleApp/SampleApp/ViewModel/SurgeryListVM.cs" Line="56" Column="14" />
+      <File FileName="SampleApp/SampleApp/Models/ActivityListModel.cs" Line="9" Column="45" />
+      <File FileName="SampleApp/SampleApp/Views/MainView/Surgeries.xaml.cs" Line="1" Column="1" />
+      <File FileName="SampleApp/SampleApp/Views/Login.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SampleApp" expanded="True">
+            <Node name="SampleApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="ViewModel" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="MainView" expanded="True">
+                  <Node name="Surgeries.xaml" expanded="True" />
+                </Node>
+                <Node name="Login.xaml" expanded="True" />
+                <Node name="SignUp.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="SampleApp.Android" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="SampleApp.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.nexus_4_-_api_30" />
+  <MonoDevelop.Ide.ItemProperties.SampleApp.Android PreferredExecutionTarget="Android.nexus_4_-_api_30" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

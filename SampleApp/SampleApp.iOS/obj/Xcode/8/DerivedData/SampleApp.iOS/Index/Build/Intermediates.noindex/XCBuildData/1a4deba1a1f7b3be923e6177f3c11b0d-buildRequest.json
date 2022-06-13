@@ -1,0 +1,62 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "09e78858885aea57aaf52a5d83b3920bd8a5f8d302044354a3e14b113dcdcca2"
+    }
+  ],
+  "containerPath" : "/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp.iOS/obj/Xcode/8/SampleApp.iOS.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.4",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp.iOS/obj/Xcode/8/DerivedData/SampleApp.iOS/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp.iOS/obj/Xcode/8/DerivedData/SampleApp.iOS/Index/Build/Products",
+      "derivedDataPath" : "/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp.iOS/obj/Xcode/8/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp.iOS/obj/Xcode/8/DerivedData/SampleApp.iOS/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp.iOS/obj/Xcode/8/DerivedData/SampleApp.iOS/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp.iOS/obj/Xcode/8/DerivedData/SampleApp.iOS/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp.iOS/obj/Xcode/8/DerivedData/SampleApp.iOS/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.UseSafeArea="True"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:SampleApp.ViewModel"
+    
+    x:Class="SampleApp.Views.MainView.Surgeries"
+    NavigationPage.HasNavigationBar="false">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <vm:SurgeryListVM x:Key="vm"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+    <!--<AbsoluteLayout>-->    
+            <!--<Frame BackgroundColor="Blue" CornerRadius="30" HasShadow="True" AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="1,1,-1,-1" Margin="10">
+            </Frame>-->
+            <StackLayout>
+              <Grid Padding="0,20,0,0" >
+            <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,*" RowSpacing="0" >
+            <!--col 1-->
+                <Grid Padding="10,0,10,0" ColumnDefinitions="Auto, *, Auto">
+                  <ImageButton Grid.Column="0" x:Name="drawerBtn" Source="BurgerButton.png" BackgroundColor="Transparent"
+                             VerticalOptions="Center" HeightRequest="40"
+                             WidthRequest="40" Clicked="drawerBtn_Clicked">
+                  </ImageButton>
+                   <Image Grid.Column="1" Source="logotagline.png" VerticalOptions="FillAndExpand" WidthRequest="72"
+                       HeightRequest="28" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand"/>
+                  <ImageButton Grid.Column="2" x:Name="Notificatios" Source="NotificationsIcon.png"
+                             BackgroundColor="Transparent" VerticalOptions="Center" HeightRequest="24"
+                             WidthRequest="24" Clicked="Notificatios_Clicked"/>
+            </Grid>
+            <!--col 2-->
+                <!--F8F9FD-->
+
+            <Grid HeightRequest="50"  Grid.Row="1" ColumnDefinitions="*, Auto" ColumnSpacing="15">
+                <!--<Grid.Margin>
+                    <OnPlatform x:TypeArguments="Thickness">
+                        <On Platform="Android">0,10,0,0</On>
+                        <On Platform="iOS">0,10,0,0</On>
+                    </OnPlatform>
+                </Grid.Margin>-->
+                 <Grid.Padding>
+                    <OnPlatform x:TypeArguments="Thickness">
+                        <On Platform="Android">10,10,10,0 </On>
+                        <On Platform="iOS">10,10,10,0</On>
+                    </OnPlatform>
+                </Grid.Padding>
+                <Label Text="Surgery List" VerticalOptions="Center"/>
+                  <StackLayout Grid.Column="1" Orientation="Horizontal">
+                        <ImageButton Grid.Column="1" Source="search.png" VerticalOptions="FillAndExpand" WidthRequest="30"
+                       HeightRequest="10" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand"/>
+                    <ImageButton Grid.Column="1" Source="FilterIcon.png" VerticalOptions="FillAndExpand" WidthRequest="30"
+                       HeightRequest="10" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand"/>
+                   </StackLayout>
+
+            </Grid>
+            <!--col 3-->
+            <Grid Padding="10,0,10,0" BackgroundColor="#F8F9FD" Grid.Row="2"
+                  ColumnDefinitions="Auto,Auto,Auto" ColumnSpacing="15">
+                <Grid.ColumnSpacing>
+
+                    <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="iOS">15</On>
+                            <On Platform="Android">5</On>
+                       </OnPlatform>
+                </Grid.ColumnSpacing>
+                <Grid.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                      <On Platform="iOS">30</On>
+                      <On Platform="Android">50</On>
+                    </OnPlatform>
+
+                </Grid.HeightRequest>
+               <StackLayout Grid.Column="0" Orientation="Horizontal" Spacing="2" >
+                   <StackLayout.WidthRequest>
+                       <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="iOS">84</On>
+                            <On Platform="Android">115</On>
+                       </OnPlatform>
+                   </StackLayout.WidthRequest>
+                   <Button VerticalOptions="Center" Text="Surgeries" TextColor="#2860DF" FontSize="12"/>
+                   <Label BackgroundColor="#D0DBF5" HorizontalOptions="Center" Padding="4" VerticalOptions="Center"
+                          Text="40" TextColor="#2860DF"
+                          FontSize="10" HeightRequest="20" />
+               </StackLayout>
+                <StackLayout Grid.Column="1" Orientation="Horizontal" Spacing="2">
+                     <StackLayout.WidthRequest>
+                       <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="iOS">84</On>
+                            <On Platform="Android">115</On>
+                       </OnPlatform>
+                   </StackLayout.WidthRequest>
+                   <Button VerticalOptions="Center" Text="Surgeries" TextColor="#818181" FontSize="12"/>
+                   <Label BackgroundColor="#E2E2E2" HorizontalOptions="Center" Padding="4" VerticalOptions="Center" Text="40"
+                          TextColor="#818181" FontSize="10" HeightRequest="20"/>
+               </StackLayout>
+
+                <StackLayout Grid.Column="2" Orientation="Horizontal" Spacing="2">
+                    <StackLayout.WidthRequest>
+                       <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="iOS">84</On>
+                            <On Platform="Android">115</On>
+                       </OnPlatform>
+                   </StackLayout.WidthRequest>
+                   <Button VerticalOptions="Center" Text="Surgeries" TextColor="#818181" FontSize="12"/>
+                   <Label BackgroundColor="#E2E2E2" HorizontalOptions="Center" Padding="4" VerticalOptions="Center"
+                          Text="40" TextColor="#818181" FontSize="10" HeightRequest="20"/>
+               </StackLayout>
+            </Grid>
+            <!--col 4-->
+            <Grid  HeightRequest="2" Padding="10,0,10,0" BackgroundColor="#F8F9FD" Grid.Row="3"
+                  ColumnDefinitions="Auto,Auto,Auto" ColumnSpacing="15">
+              <Button WidthRequest="84" BackgroundColor="#2860DF" Grid.Column="0" IsVisible="true"/>
+              <Button WidthRequest="84" BackgroundColor="#2860DF" Grid.Column="1" IsVisible="false"/>
+              <Button WidthRequest="84" BackgroundColor="#2860DF" Grid.Column="2" IsVisible="false" />
+            </Grid>
+            <!--col 5-->
+             <Grid  HeightRequest="50" Padding="7,0,0,0" BackgroundColor="#F8F9FD" Grid.Row="4"
+                  ColumnDefinitions="Auto,*" ColumnSpacing="15">
+                 <StackLayout Orientation="Horizontal">
+                    <Label HorizontalOptions="Center" VerticalOptions="Center"
+                          Text="Result per page" TextColor="#818181" FontSize="12">
+                        <Label.HeightRequest>
+                            <OnPlatform x:TypeArguments="x:Double">
+                                <On Platform="iOS">20</On>
+                                <On Platform="Android">30</On>
+                            </OnPlatform>
+                        </Label.HeightRequest>
+                        <Label.Padding>
+                            <OnPlatform x:TypeArguments="Thickness">
+                                <On Platform="Android">5</On>
+                                <On Platform="iOS">4</On>
+                            </OnPlatform>
+                        </Label.Padding>
+                    </Label>
+                    <Frame BorderColor="#DADEF2" HorizontalOptions="Center" VerticalOptions="Center" 
+                           WidthRequest="50" HeightRequest="30" HasShadow="False">
+                         <Frame.Padding>
+                            <OnPlatform x:TypeArguments="Thickness">
+                                <On Platform="Android">1,1,1,1</On>
+                                <On Platform="iOS">0</On>
+                            </OnPlatform>
+                        </Frame.Padding>
+                        <StackLayout BackgroundColor="White" Orientation="Horizontal" >
+                            <Label VerticalOptions="Center" Padding="10,0,0,0"  Text="10" TextColor="#596080" FontSize="12"/>
+                            <ImageButton WidthRequest="10" HeightRequest="10" Source="dropdown.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+                        </StackLayout>
+                    </Frame>
+                 </StackLayout>
+            
+            </Grid>
+
+
+            <Grid Grid.Row="5" Padding="0">
+            <StackLayout BindingContext="{StaticResource vm}" Padding="0">
+            <ListView ItemsSource="{Binding ItemList}" HasUnevenRows="True" SeparatorVisibility="None" BackgroundColor="#F8F9FD" >
+                <ListView.ItemTemplate Padding="0" >
+                    <DataTemplate >
+                        <ViewCell >
+                            <Frame Margin="8,15,8,0" HasShadow="False" BorderColor="#EBECF1" >
+                                 <Grid BackgroundColor="#F8F9FD" HeightRequest="100"  RowDefinitions="Auto,Auto,*"
+                                  RowSpacing="0" >
+                                <Grid BackgroundColor="White" Padding="0" Grid.Row="0" ColumnDefinitions="0.7*,0.3*"
+                                      HeightRequest="30" >
+                                    <Label Grid.Column="0" Text="11223322" VerticalOptions="Center" VerticalTextAlignment="end"
+                                            TextColor="#5B6291" FontSize="14"/>
+                                    <Label Grid.Column="1" Text="12/12/2021"  VerticalOptions="Center" VerticalTextAlignment="End"
+                                            HorizontalOptions="End" TextColor="#596080" FontSize="14" Padding="0"/>
+                                </Grid>
+                                <Grid BackgroundColor="White" Padding="0" Grid.Row="1" ColumnDefinitions="0.5*,*"
+                                      HeightRequest="30" >
+                                    <Label Grid.Column="0" Text="Vergas, Pamela" VerticalOptions="Center"
+                                            VerticalTextAlignment="end" TextColor="#5B6291" FontSize="14"/>
+                                    <Label BackgroundColor="#DACAFA" Grid.Column="1" FontSize="9" Text="surgary bill approved by surgeon (billed 12/08/21)"
+                                           VerticalOptions="Center" HorizontalOptions="EndAndExpand"  VerticalTextAlignment="Center"
+                                           TextColor="#2F4B63" Padding="2,0,2,0" HeightRequest="20" Margin="0"/>
+                                </Grid>
+                                <Grid BackgroundColor="White" Padding="0" Grid.Row="2" ColumnDefinitions="0.7*,0.3*" HeightRequest="30" >
+                                    <Label Grid.Column="0" Text="50 years"
+                                           VerticalOptions="Center"  VerticalTextAlignment="end"
+                                            TextColor="#5B6291" FontSize="14"/>
+                                    <Label BackgroundColor="#B7F778" Grid.Column="1" FontSize="9" Text="B.O Updated"
+                                           VerticalOptions="Center" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center"
+                                           TextColor="#2F4B63" Padding="5,0,5,0" HeightRequest="20"  Margin="0"/>
+                                </Grid> 
+
+                            </Grid>
+                            </Frame>
+                        </ViewCell>
+                        <!--<ImageCell Text="{Binding activityName}" Detail="{Binding activityInfo}" ImageSource="{Binding activityImgUrl}"/>-->
+                       
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+ 
+            </Grid>
+        </Grid>
+
+    </Grid>
+
+        </StackLayout>
+       <!-- </AbsoluteLayout>-->
+    </ContentPage.Content>
+</ContentPage>

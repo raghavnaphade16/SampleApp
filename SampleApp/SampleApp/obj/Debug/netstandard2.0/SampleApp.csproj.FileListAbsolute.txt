@@ -1,0 +1,17 @@
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/bin/Debug/netstandard2.0/SampleApp.deps.json
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/bin/Debug/netstandard2.0/SampleApp.dll
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/bin/Debug/netstandard2.0/ref/SampleApp.dll
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/bin/Debug/netstandard2.0/SampleApp.pdb
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/SampleApp.csproj.AssemblyReference.cache
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/Views/Login.xaml.g.cs
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/Views/MainView/Surgeries.xaml.g.cs
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/Views/SignUp.xaml.g.cs
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/SampleApp.AssemblyInfoInputs.cache
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/SampleApp.AssemblyInfo.cs
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/SampleApp.csproj.CoreCompileInputs.cache
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/SampleApp.dll
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/ref/SampleApp.dll
+/Users/waitechnologies/Projects/SampleApp/SampleApp/SampleApp/obj/Debug/netstandard2.0/SampleApp.pdb
